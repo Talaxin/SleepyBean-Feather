@@ -1,0 +1,58 @@
+{
+  "name": "SleepyBean",
+  "identifier": "com.sleepybean.repo",
+  "sourceURL": "https://raw.githubusercontent.com/Talaxin/SleepyBean-Feather/main/app-repo.json",
+  "iconURL": "https://raw.githubusercontent.com/Talaxin/SleepyBean-Feather/main/icon.png",
+  "website": "https://github.com/Talaxin/SleepyBean-Feather",
+  "apps": [
+    {
+      "name": "SleepyBean",
+      "bundleIdentifier": "com.sleepybean.loveyourbaby",
+      "developerName": "Talaxin",
+      "iconURL": "https://raw.githubusercontent.com/Talaxin/SleepyBean-Feather/main/icon.png",
+      "localizedDescription": "Track naps, night wakings, and feeds on iPhone and Apple Watch. Day/night modes, wake windows, and one-tap left/right/bottle feeding.",
+      "subtitle": "Sleep & feeding tracker",
+      "tintColor": "#7358C8",
+      "category": "lifestyle",
+      "versions": [
+        {
+          "version": "1.5.1.39",
+          "buildVersion": "39",
+          "date": "2026-09-15T13:49:27-07:00",
+          "localizedDescription": "SleepyBean 1.5.1.39 \u2014 iPhone + Apple Watch. Feeding, day/night, wake windows.",
+          "downloadURL": "https://github.com/Talaxin/SleepyBean-Feather/releases/download/v1.5.1.39/SleepyBean.ipa",
+          "size": 4438524,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "1.5.1.39",
+      "versionDate": "2026-09-15T13:49:27-07:00",
+      "size": 4438524,
+      "downloadURL": "https://github.com/Talaxin/SleepyBean-Feather/releases/download/v1.5.1.39/SleepyBean.ipa"
+    }
+  ],
+  "news": [
+    {
+      "title": "Apple Watch in Feather",
+      "identifier": "sleepybean-watch-1-5-1",
+      "caption": "1.5.1 includes the Watch app inside the IPA. Refresh this source, install SleepyBean, then in the Watch iPhone app tap Install. Open SleepyBean on the phone first so the Watch can copy the log.",
+      "tintColor": "#7358C8",
+      "date": "2026-09-15",
+      "url": "https://github.com/Talaxin/SleepyBean/releases/latest",
+      "notify": true
+    },
+    {
+      "title": "Fresh install required",
+      "identifier": "sleepybean-reinstall-1-2",
+      "caption": "Delete the old SleepyBean app, refresh this source, then install the latest build. Today should show Feeding and a version stamp at the bottom.",
+      "tintColor": "#7358C8",
+      "date": "2026-09-05",
+      "url": "https://github.com/Talaxin/SleepyBean/releases/latest",
+      "notify": false
+    }
+  ]
+}
